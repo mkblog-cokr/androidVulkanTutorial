@@ -157,7 +157,7 @@ class mkTriangle{
 		VkSurfaceKHR surface;
    		PFN_vkCreateAndroidSurfaceKHR fpCreateAndroidSurfaceKHR;
 
-   		//MK: (코드 1-) Physical Device 변수 추가
+   		//MK: (코드 1-1) Physical Device 변수 추가
    		VkPhysicalDevice physicalDevice = VK_NULL_HANDLE;
 };
 
